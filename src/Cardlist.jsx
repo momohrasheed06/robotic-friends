@@ -1,8 +1,7 @@
 import React from 'react';
 import Card from './Card';
-import users from './user.json';
+function Cardlist({users}) {
 
-function Cardlist() {
   return (
     <div className='card-details'>
         {
